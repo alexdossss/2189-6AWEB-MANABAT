@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow-x: hidden !important;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.resume-wrapper {
+  display: flex;
+  background: #0f0f0f;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.right-side {
+  flex: 1;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.resume-section {
+  margin-bottom: 40px;
+}

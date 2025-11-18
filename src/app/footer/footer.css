@@ -1,0 +1,29 @@
+.tech-box {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.tech-item {
+  background: #1a1a1a;
+  padding: 20px;
+  border-left: 4px solid #00aaff;
+  box-sizing: border-box;
+}
+
+.tech-item:hover {
+  transform: translateY(-5px);
+  background: #222;
+  border-left-color: #33c7ff;
+  box-shadow: 0 6px 18px rgba(0, 170, 255, 0.25);
+  cursor: pointer;
+}
+
+.tech-item h4 {
+  margin-bottom: 5px;
+  color: white;
+}
+
+.tech-item p {
+  color: #ccc;
+}
